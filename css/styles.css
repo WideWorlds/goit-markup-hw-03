@@ -1,0 +1,277 @@
+/* header */
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.auth-nav {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.logo-item {
+    color:black;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logo-item-white {
+    color: white;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logo-item-web {
+    margin-top: 24px;
+    margin-right: 93px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+
+    color:#2196F3;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+
+}
+
+.header-nav {
+    color: #212121;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.header-nav-selected {
+    color: #2196F3;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.header-nav:hover,
+.header-nav:focus {
+    color: #2196F3;
+}
+
+.header-contact {
+    color: #757575;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+    color: #2196F3;
+}
+
+.site-nav {
+    display: flex;
+}
+
+.site-nav 
+.header-nav:not(:last-child),
+.header-contact:not(:last-child) {
+    margin-right: 50px;
+}
+
+.site-nav 
+.header-nav, 
+.header-contact {
+    padding-top: ;
+    padding-bottom: ;
+}
+
+
+/* header */
+/* body */
+
+body {
+    font-family: roboto, sans-sherif;
+    font-style: normal;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-hidden {
+    display: none;
+}
+
+.item {
+    width: 270px;
+}
+
+.title-text {
+    color: #FFFFFF;
+    background-color: #2F303A;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.title-header {
+    color: #212121;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.favorite-styled {
+    display: flex;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background-color: #2196F3;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+
+.favorite-styled-portfolio {
+    color: #000000;
+    background-color: #F5F4FA;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+
+.favorite-styled-portfolio:hover,
+.favorite-styled-portfolio:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.main-section-header {
+    color: #212121;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.main-section-text {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.profile-card-header {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.profile-card-text {
+    color: #757575;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-card-header {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-card-text {
+    color: #757575;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+
+/* body */
+/* footer */
+
+.footer-information {
+    background-color: #2F303A;
+}
+
+address {
+    font-style: normal;
+}
+
+.address-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.address-info {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/* footer */
+
+
+/* цвет текста заголовка h1 #FFFFFF */
+/* цвет текста заголовков #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет белого фона #FFFFFF */
+/* цвет синего фона #2F303A */
+/* цвет серого фона #F5F4FA */
+/* цвет выделенния и кнопки #2196F3 */
+/* цвет контактной информации в футере #FFFFFF прозрачность 60% */
